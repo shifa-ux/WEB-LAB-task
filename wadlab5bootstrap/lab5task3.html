@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Company Owners</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Hover effects for cards */
+    .owner-card {
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .owner-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body class="bg-light">
+
+  <div class="container py-5">
+    <h1 class="text-center mb-4">About Us</h1>
+    <p class="text-center mb-5">
+      We are a passionate team working together to grow our company. Meet our dedicated owners below.
+    </p>
+
+    <div class="row g-4">
+      <!-- Owner 1 -->
+      <div class="col-md-4">
+        <div class="card owner-card h-100 text-center">
+          <img src="/img/ali.jpeg" class="card-img-top" alt="Owner 1">
+          <div class="card-body">
+            <h5 class="card-title">Ali Khan</h5>
+            <p class="card-text">Founder & CEO with 10+ years of experience in business management and innovation.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Owner 2 -->
+      <div class="col-md-4">
+        <div class="card owner-card h-100 text-center">
+          <img src="/img/sarah.jpeg" class="card-img-top" alt="Owner 2">
+          <div class="card-body">
+            <h5 class="card-title">Sara Ahmed</h5>
+            <p class="card-text">Co-Founder & Marketing Head, passionate about brand building and digital growth.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Owner 3 -->
+      <div class="col-md-4">
+        <div class="card owner-card h-100 text-center">
+          <img src="/img/bilal.jpeg" class="card-img-top" alt="Owner 3">
+          <div class="card-body">
+            <h5 class="card-title">Bilal Hussain</h5>
+            <p class="card-text">Co-Founder & Technical Director, leading the company’s technology and product development.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
