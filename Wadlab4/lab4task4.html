@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Animations & Transitions</title>
+  <style>
+   
+    .word {
+      color: blue;
+      transition: 0.5s;
+    }
+    .word:hover {
+      color: red;
+      letter-spacing: 5px;
+    }
+
+   
+    @keyframes rainbow {
+      0% {color: red;}
+      25% {color: orange;}
+      50% {color: green;}
+      75% {color: blue;}
+      100% {color: purple;}
+    }
+    .rainbow {
+      animation: rainbow 3s infinite;
+    }
+
+    
+    .pic {
+      transition: transform 0.5s;
+      margin: 20px;
+    }
+    .pic:hover {
+      transform: scale(1.2);
+    }
+  
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      margin-top: 30px;
+    }
+    h2 {
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+
+  
+  <h1 class="rainbow">Student Managment</h1>
+
+</body>
+</html></style>
