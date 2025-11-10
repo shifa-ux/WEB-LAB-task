@@ -1,0 +1,17 @@
+// Create an array of students
+let students = [
+  { name: "Ali", marks: 45 },
+  { name: "Sara", marks: 72 },
+  { name: "Ahmed", marks: 50 },
+  { name: "Hina", marks: 89 },
+  { name: "Usman", marks: 33 }
+];
+
+// Filter students whose marks are greater than 50
+let passedStudents = students.filter(student => student.marks > 50);
+
+// Display result
+console.log("Students with marks greater than 50:");
+for (let s of passedStudents) {
+  console.log(`Name: ${s.name}, Marks: ${s.marks}`);
+}
