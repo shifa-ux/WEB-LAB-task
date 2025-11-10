@@ -1,0 +1,31 @@
+.slider {
+    width: 80%;
+    height: 300px;
+    margin: 20px auto;
+    overflow: hidden;           
+    border-radius: 10px;
+    border: 3px solid pink;
+    position: relative;
+}
+
+
+.slides {
+    display: flex;               
+    width: 300%;                 
+    animation: slide 9s infinite;  
+}
+
+
+.slides img {
+    width: 10%;                 
+    height: 300px;
+    object-fit: fill;
+}
+
+
+@keyframes slide {
+    0%   { transform: translateX(0%); }
+    33%  { transform: translateX(-100%); } 
+    66%  { transform: translateX(-200%); } 
+    100% { transform: translateX(0%);}
+}
